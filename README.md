@@ -9,7 +9,8 @@ $ git add. // '.'表示把当前目录下所有未追踪的文件都添加了
 $ git status //随时都可以用，用来查看当前工作区状态（等待提交的变更）
 $ git commit -m 'first commit' //把文件提交到仓库
 $ git remote add origin git@github.com:username/repositoryname.git //关联远程仓库
-$ git push -u origin master
+$ git merge master //如果本地做了改动，需要更新仓库
+$ git push -u origin master -f
 ```
 # 下载操作
 ```
